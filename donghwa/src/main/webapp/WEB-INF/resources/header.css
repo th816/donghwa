@@ -1,0 +1,34 @@
+.header {
+    background: #123478;
+    width: 100%; /* 100%로 변경하여 반응형으로 설정 */
+    height: 47.79px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+  }
+  .hamburger-icon-svg-1 {
+    width: 33px;
+    height: 27.19px;
+    position: absolute;
+    left: 13px;
+    top: 10px; /* 위치 조정 */
+    cursor: pointer; 
+    z-index: 3;
+  }
+  
+  .menu {
+    width: 160px;
+    height: 904px;
+    background: #123478;
+    position: absolute;
+    left: -350px;
+    transition: left 0.3s ease;
+    padding: 20px; 
+    color: white;
+    z-index: 1;
+  }
+  
+  .menu.active {
+    left: 0;
+  }
